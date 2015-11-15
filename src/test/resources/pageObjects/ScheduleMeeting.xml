@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<elements area="scheduleMeeting" page="ScheduleMeeting" description="Schedule Meeting">
+	
+	<element key="SCHEDULE_MEETING" findBy="ID" id="schedule-later" tag="" name="" text="" xPath=""/>
+	<element key="MEETING_NAME" findBy="ID" id="name" tag="text" name="" text="" xPath=""/>
+	<element key="MEETING_DESCRIPTION" findBy="ID" id="description" tag="select" name="" text="" xPath="//*[@id='description']"/>
+	<element key="MEETING_TRIGGER" findBy="ID" id="ui-datepicker-trigger" tag="" name="" text="" xPath="//*[@id='ui-datepicker-trigger']"/>
+	<element key="MEETING_START_DATE" id="webinarTimesForm.dateTimes_0.baseDate" findBy="id" tag="" name="" text="" xPath=""/>
+	<element key="MEETING_START_TIME" findBy="ID" id="webinarTimesForm.dateTimes_0.startTime" tag="" name="" text="" xPath=""/>
+	<element key="MEETING_START_AMPM" findBy="id" id="webinarTimesForm_dateTimes_0_startAmPm" tag="select" name="" text="" xPath=""/>
+	<element key="MEETING_END_TIME" findBy="id" id="webinarTimesForm.dateTimes_0.endTime" tag="" name="" text="" xPath=""/>
+	<element key="MEETING_END_AMPM" findBy="id" id="webinarTimesForm_dateTimes_0_endAmPm" tag="select" name="" text="" xPath=""/>
+	
+	<element key="MEETING_SCHEDULE" findBy="id" id="scheduleWebinar" tag="" name="" text="" xPath=""/>
+	
+	<element key="MEETING_RECCURENCE" findBy="id" id="recurrenceForm_recurs" tag="select" name="" text="" xPath="" />
+	<element key="MEETING_RECCURENCE_LINK" findBy="id" id="recurrenceForm_recurs_trig" tag="select" name="" text="" xPath="" />
+
+	<element key="MEETING_DATEPICKER_NEXT" findBy="class" id="" tag="" name="" text="" xPath=""  class="//*[@class='ui-icon ui-icon-circle-triangle-e']"/>
+	<element key="MEETING_DATEPICKER_YEAR" findBy="class" id="" tag="span" name="" text="" class="ui-datepicker-year" />
+	<element key="MEETING_DATEPICKER_MONTH" findBy="class" id="" tag="span" name="" text="" class="ui-datepicker-month" />
+	<element key="MEETING_DATEPICKER_DAY" findBy="xpath" id="" tag="span" name="" text=""  xPath="//*[@class='ui-state-default']"/>
+	<element key="MEETING_TIME_ZONE" findBy="id" id="webinarTimesForm_timeZone" tag="" name="" text=""  xPath="//*[@id='webinarTimesForm_timeZone_trig']/span[1]"/>
+	<element key="MEETING_LANGUAGE" findBy="xpath" id="" tag="span" name="" text=""  xPath="//*[@id='language_trig']/span[1]"/>
+	<element key="MEETING_SCHEDULE_BUTTON" findBy="ID" id="schedule.submit.button" tag="" name="" text="" xPath=""/>
+	<element key="MEETING_SCHEDULE_START_AMPM_BUTTON" findBy="ID" id="webinarTimesForm_dateTimes_0_startAmPm_trig" tag="" name="" text="" xPath=""/>
+	<element key="MEETING_SCHEDULEEND_AMPM__BUTTON" findBy="ID" id="webinarTimesForm_dateTimes_0_endAmPm_trig" tag="" name="" text="" xPath=""/>
+	<element key="MEETING_LANGUAGE_BUTTON" findBy="ID" id="language_trig" tag="" name="" text="" xPath=""/>
+	
+	
+	
+</elements>
+	

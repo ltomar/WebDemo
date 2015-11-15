@@ -1,0 +1,9 @@
+This webdriver project is coded and configured for chrome  running on either mac or windows.
+
+Configuration file:
+config.properties:-All runtime platform related details can be configured in this file. User account info is also read from this file.
+testconfig.properties - Appurl and other properties can be configured here.
+
+How to run:-
+This webdriver demo can be run from CitrixDemo/src/test/resources/testfiles/testng.xml file.
+1)Create a TestNG configuration using testng file.

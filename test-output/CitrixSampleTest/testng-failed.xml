@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="4" name="Failed suite [CitrixSampleTest]">
+  <parameter name="configFile" value="config.properties"/>
+  <parameter name="proxy" value="notrequired"/>
+  <parameter name="testConfigFile" value="testconfig.properties"/>
+  <test name="Tests(failed)">
+    <groups>
+      <run>
+        <include name="prerequisite"/>
+        <include name="runnable"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.citrix.test.CitrixText">
+        <methods>
+          <include name="start"/>
+          <include name="shutDown"/>
+          <include name="testCreateWebinar"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.citrix.test.CitrixText -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [CitrixSampleTest] -->

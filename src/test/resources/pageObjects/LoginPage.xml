@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<elements area="Login" page="LOGIN" description="Login to gomeeting">
+	<element key="USERNAME" findBy="ID" id="emailAddress" tag="select" name="" text="" xPath=""/>
+	<element key="PASSWORD" findBy="ID" id="password" tag="span" name="" text="" xPath=""/>
+	<element key="SUBMIT" findBy="id" id="submit" tag="button" name="" text="" xPath=""/>
+	
+</elements>
+	

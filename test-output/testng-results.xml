@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CitrixSampleTest" duration-ms="80985" started-at="2015-11-14T23:46:30Z" finished-at="2015-11-14T23:47:51Z">
+    <groups>
+      <group name="runnable">
+        <method signature="CitrixText.testCreateWebinar()[pri:0, instance:com.citrix.test.CitrixText@748fac5f]" name="testCreateWebinar" class="com.citrix.test.CitrixText"/>
+      </group> <!-- runnable -->
+    </groups>
+    <test name="Tests" duration-ms="80985" started-at="2015-11-14T23:46:30Z" finished-at="2015-11-14T23:47:51Z">
+      <class name="com.citrix.test.CitrixText">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String)[pri:0, instance:com.citrix.test.CitrixText@748fac5f]" name="init" is-config="true" duration-ms="15" started-at="2015-11-14T15:46:30Z" finished-at="2015-11-14T15:46:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testconfig.properties]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:com.citrix.test.CitrixText@748fac5f]" name="start" is-config="true" duration-ms="2127" started-at="2015-11-14T15:46:30Z" finished-at="2015-11-14T15:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[notrequired]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="testCreateWebinar()[pri:0, instance:com.citrix.test.CitrixText@748fac5f]" name="testCreateWebinar" duration-ms="78268" started-at="2015-11-14T15:46:32Z" finished-at="2015-11-14T15:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateWebinar -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.citrix.test.CitrixText@748fac5f]" name="shutDown" is-config="true" duration-ms="566" started-at="2015-11-14T15:47:50Z" finished-at="2015-11-14T15:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.citrix.test.CitrixText -->
+    </test> <!-- Tests -->
+  </suite> <!-- CitrixSampleTest -->
+</testng-results>

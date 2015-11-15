@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="4"
+	name="CitrixSampleTest">
+	<parameter name="configFile" value="config.properties" />
+	<parameter name="testConfigFile" value="testconfig.properties" />
+	<parameter name="proxy" value="notrequired" />	<test name="Tests">
+		<groups>
+			<run>
+				<include name="prerequisite" />
+				<include name="runnable" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.citrix.test.CitrixText" />
+		</classes>
+	</test>
+
+	<!-- Tests -->
+</suite>
